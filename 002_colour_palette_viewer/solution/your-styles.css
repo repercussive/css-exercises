@@ -1,0 +1,127 @@
+body {
+  font-family: 'Inter', sans-serif;
+  max-width: 850px;
+  margin: auto;
+}
+
+h1 {
+  font-family: 'Dancing Script', cursive;
+  font-weight: 700;
+  margin-block: 0.85rem;
+  font-size: 2.75rem;
+  text-align: center;
+  position: relative;
+  width: fit-content;
+  margin-inline: auto;
+}
+
+h1 span:nth-child(1) {
+  color: #12a7be;
+}
+
+h1 span:nth-child(2) {
+  color: #e04c47;
+}
+
+h1::before {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  content: '';
+  background-color: #12a7be17;
+  border-radius: 100%;
+  z-index: -1;
+  top: -40px;
+  left: 15px;
+}
+
+h1::after {
+  position: absolute;
+  width: 180px;
+  height: 180px;
+  content: '';
+  background-color: #e4150e1a;
+  border-radius: 100%;
+  z-index: -1;
+  bottom: -115px;
+  right: -5px;
+}
+
+#intro-text {
+  border: solid 1px rgb(216, 216, 216);
+  border-radius: 3px;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  box-shadow: rgba(100, 100, 111, 0.08) 0px 2px 15px 0px;
+  background-color: white;
+  color: rgb(70, 70, 70);
+}
+
+article {
+  margin-bottom: 2rem;
+}
+
+h2 {
+  position: relative;
+  margin-bottom: 0.5rem;
+  padding-bottom: 0.15rem;
+  font-style: italic;
+  background-color: white;
+  font-weight: 500;
+  color: rgb(99, 99, 99);
+  border-bottom: solid 2px rgb(212, 212, 212);
+  font-size: 1.25rem;
+}
+
+.swatches-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.5rem;
+  width: 100%;
+}
+
+.swatch {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  border-radius: 5.5px;
+  flex-grow: 1;
+  height: 200px;
+}
+
+.swatch p {
+  background-color: white;
+  font-size: 0.75rem;
+  padding: 0.25rem 0.5rem;
+  border: solid 1px rgb(219, 219, 219);
+  border-top: none;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  color: rgb(109, 109, 109);
+}
+
+@media screen and (max-width: 475px) {
+
+  .swatches-container {
+    gap: 0;
+    border-radius: 5px;
+    overflow: hidden;
+    flex-direction: column;
+  }
+
+  .swatch {
+    border-radius: 0;
+    height: 40px;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .swatch p {
+    border: none;
+    border-radius: 0;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    width: 4.5em;
+  }
+
+}

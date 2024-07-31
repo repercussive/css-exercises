@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root {
+  font-size: 18px;
+}
+
+body {
+  padding: 0.25rem;
+}
+
+* {
+  margin: 0;
+}
+
+/* PALETTE: SUMMER SUNSET */
+
+#palette-summer-sunset .swatch:nth-of-type(1) {
+  background-color: #003049;
+}
+
+#palette-summer-sunset .swatch:nth-of-type(2) {
+  background-color: #D62828;
+}
+
+#palette-summer-sunset .swatch:nth-of-type(3) {
+  background-color: #F77F00;
+}
+
+#palette-summer-sunset .swatch:nth-of-type(4) {
+  background-color: #FCBF49;
+}
+
+#palette-summer-sunset .swatch:nth-of-type(5) {
+  background-color: #EAE2B7;
+}
+
+/* PALETTE: EARTHY INTERIOR */
+
+#palette-earthy-interior .swatch:nth-of-type(1) {
+  background-color: #CB997E;
+}
+
+#palette-earthy-interior .swatch:nth-of-type(2) {
+  background-color: #DDBEA9;
+}
+
+#palette-earthy-interior .swatch:nth-of-type(3) {
+  background-color: #FFE8D6;
+}
+
+#palette-earthy-interior .swatch:nth-of-type(4) {
+  background-color: #A5A58D;
+}
+
+#palette-earthy-interior .swatch:nth-of-type(5) {
+  background-color: #6B705C;
+}
+
+/* PALETTE: VINTAGE POSTER */
+
+#palette-vintage-poster .swatch:nth-of-type(1) {
+  background-color: #6C5442;
+}
+
+#palette-vintage-poster .swatch:nth-of-type(2) {
+  background-color: #C96A49;
+}
+
+#palette-vintage-poster .swatch:nth-of-type(3) {
+  background-color: #E6E2BD;
+}
+
+#palette-vintage-poster .swatch:nth-of-type(4) {
+  background-color: #71B9A5;
+}
+
+/* PALETTE: BEACH PARADISE */
+
+#palette-beach-paradise .swatch:nth-of-type(1) {
+  background-color: #006D77;
+}
+
+#palette-beach-paradise .swatch:nth-of-type(2) {
+  background-color: #83C5BE;
+}
+
+#palette-beach-paradise .swatch:nth-of-type(3) {
+  background-color: #EDF6F9;
+}
+
+#palette-beach-paradise .swatch:nth-of-type(4) {
+  background-color: #FFDDD2;
+}
+
+#palette-beach-paradise .swatch:nth-of-type(5) {
+  background-color: #E29578;
+}
+
+/* PALETTE: CREAM SODA */
+
+#palette-cream-soda .swatch:nth-of-type(1) {
+  background-color: #ED6A5A;
+}
+
+#palette-cream-soda .swatch:nth-of-type(2) {
+  background-color: #F4F1BB;
+}
+
+#palette-cream-soda .swatch:nth-of-type(3) {
+  background-color: #9BC1BC;
+}
