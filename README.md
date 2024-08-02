@@ -1,6 +1,6 @@
 # HTML & CSS exercises
 
-In this repository you'll find a handful of exercise to help you learn and practice key front-end concepts, mostly around using CSS to style HTML documents.
+In this repository, you'll find a handful of exercises to help you learn and practice key front-end concepts, mostly related to using CSS to style HTML documents.
 
 Read through this short guide to get started.
 
