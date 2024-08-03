@@ -5,6 +5,8 @@ In this exercise, you'll take the concept of a responsive layout to the next lev
 - [Before](https://liam-web-demos.pages.dev/003_ecommerce_site/)
 - [After](https://liam-web-demos.pages.dev/003_ecommerce_site/solution/)
 
+This time around, the design of the page is loosely inspired by a sort of softer take on neo-brutalism.
+
 Experiment with resizing the window to see how the page adapts.
 
 ## What you need to know
@@ -54,6 +56,16 @@ Some resources to help you learn about implicit grids:
 - If you aren't sure about `fr` units, [watch this video](https://www.youtube.com/watch?v=ZPtpzuRajzM) which I think does a good job of making it clear how `fr` functions and why it's useful.
 
 💡 Tip: you can use the same concept of implicit grids for the site's header :)
+
+## Important note on accessibility
+
+It should be possible to navigate any website **without the use of a mouse**. Keyboard navigation should therefore provide a good, usable experience. 
+
+Normally, users who rely on keyboard navigation will use the **Tab** key to focus on the different elements on the page. It is absolutely vital that there is a good visual indicator of which element is currently focused. 
+
+Given the design of this website, the default visual focus indicator of some browsers is nearly impossible to see. Therefore, it is your responsibility to use CSS to make the focus indicator easily identifiable. Open the "[After](https://liam-web-demos.pages.dev/003_ecommerce_site/solution/)" demo and try pressing the Tab key a few times to test out the keyboard navigation. You should see a large, pink focus ring appear around the focused elements. This provides more contrast and clarity than the browser's default focus ring.
+
+You can use the [`:focus-visible` pseudo-class](https://devdocs.io/css/:focus-visible) in CSS to apply focus styles for keyboard users.
 
 ## One more super tip
 

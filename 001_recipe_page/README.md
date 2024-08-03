@@ -1,6 +1,6 @@
 # Exercise #1: Recipe page
 
-For this task, you'll be taking a recipe webpage and adding some style to it. Click on the links below to see demos of the before and after:
+For this task, you'll be taking a recipe webpage and adding some style to it to implement a minimal design. Click on the links below to see demos of the before and after:
 
 - [Before](https://liam-web-demos.pages.dev/001_recipe_page/)
 - [After](https://liam-web-demos.pages.dev/001_recipe_page/solution/)
