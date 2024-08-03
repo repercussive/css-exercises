@@ -34,8 +34,7 @@ button {
   margin-bottom: 5px;
   font-size: 1rem;
   border: solid 2px black;
-  padding: 0.5rem 0.5rem;
-  border-radius: 0;
+  padding: 0.5rem 0.75rem;
   text-align: center;
   backface-visibility: hidden;
   background-color: white;
@@ -57,7 +56,7 @@ header {
   border-bottom: solid 2px var(--accent-color);
   padding: 1rem 1rem;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 1rem;
   overflow: hidden;
   position: relative;
@@ -77,21 +76,20 @@ h1::before, h1::after {
   background-color: var(--accent-color);
   opacity: 0.22;
   content: '';
-  pointer-events: none;
 }
 
 h1::before {
-  bottom: -0.5px;
-  right: 0;
   width: 4.5rem;
   height: 4.5rem;
+  bottom: 0;
+  right: 0;
 }
 
 h1::after {
-  bottom: -0.5px;
-  right: 2rem;
   width: 6rem;
   height: 6rem;
+  bottom: 0;
+  right: 2rem;
 }
 
 header > div {
@@ -129,7 +127,6 @@ main {
   grid-template-columns: auto 1fr;
   grid-template-rows: auto 1.5fr 3fr;
   grid-row-gap: 0.75rem;
-  position: relative;
 }
 
 .product a {
@@ -139,17 +136,18 @@ main {
 }
 
 .product-image-container {
-  grid-column: 1 / 2;
-  grid-row: 2 / -1;
-  height: 10rem;
+  grid-column: 1;
+  grid-row: 2 / span 2;
+  width: 8rem;
   border: solid 2px black;
   border-radius: 2px;
   position: relative;
-  transform: translate(-1.5rem, 0rem);
+  transform: translateX(-1.5rem);
 }
 
 .product-image-container img {
   height: 100%;
+  width: 100%;
 }
 
 .product-image-container::before {
@@ -164,8 +162,8 @@ main {
 }
 
 .product p {
-  grid-row: 2 / 3;
-  grid-column: 2 / 3;
+  grid-row: 2;
+  grid-column: 2;
   height: 100%;
   border-radius: 2px;
   display: grid;
@@ -175,8 +173,7 @@ main {
 }
 
 .product button {
-  grid-row: 3 / 4;
-  grid-column: 2 / 3;
-  height: 100%;
+  grid-row: 3;
+  grid-column: 2;
   margin-top: -5px;
 }
