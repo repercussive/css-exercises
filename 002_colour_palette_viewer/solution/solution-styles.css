@@ -23,27 +23,28 @@ h1 span:nth-child(2) {
   color: #e04c47;
 }
 
-h1::before {
+h1::before, h1::after {
   position: absolute;
+  content: '';
+  z-index: -1;
+  border-radius: 100%;
+}
+
+h1::before {
   width: 100px;
   height: 100px;
-  content: '';
-  background-color: #12a7be17;
+  background-color: rgba(18, 167, 190, 0.09);
   border-radius: 100%;
-  z-index: -1;
   top: -40px;
   left: 15px;
 }
 
 h1::after {
-  position: absolute;
   width: 180px;
   height: 180px;
-  content: '';
-  background-color: #e4150e1a;
+  background-color: rgba(228, 21, 14, 0.102);
   border-radius: 100%;
-  z-index: -1;
-  bottom: -115px;
+  top: -5px;
   right: -5px;
 }
 
@@ -75,9 +76,7 @@ h2 {
 
 .swatches-container {
   display: flex;
-  justify-content: space-between;
   gap: 0.5rem;
-  width: 100%;
 }
 
 .swatch {
@@ -100,28 +99,26 @@ h2 {
   color: rgb(109, 109, 109);
 }
 
-@media screen and (max-width: 475px) {
+@media screen and (max-width: 550px) {
 
   .swatches-container {
     gap: 0;
     border-radius: 5px;
-    overflow: hidden;
     flex-direction: column;
+    overflow: hidden;
   }
 
   .swatch {
-    border-radius: 0;
-    height: 40px;
     flex-direction: row;
     align-items: center;
+    height: 40px;
+    border-radius: 0;
   }
 
   .swatch p {
     border: none;
-    border-radius: 0;
-    border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px;
-    width: 4.5em;
+    border-radius: 5px 0 0 5px;
+    width: 7ch;
   }
 
 }
