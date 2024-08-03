@@ -38,7 +38,9 @@ Click any of the sections below to expand them.
 <details>
   <summary>Click to expand or collapse this section</summary>
 
-  In the final product, the main content of the page - represented by the `<main>` tag - is mostly left-aligned (such as the text in the "Instructions" section), but the text container itself has an even amount of spacing on the left and right sides.
+  In the [final product](https://liam-web-demos.pages.dev/001_recipe_page/solution/), the main content of the page - represented by the `<main>` tag - is mostly left-aligned (such as the text in the "Ingredients" section), but the text container itself has an equal amount of spacing on the left and right sides.
+
+  ![page margin diagram](https://gcdnb.pbrd.co/images/JhDgCGy9x23l.png?o=1)
 
   To achieve this:
 
@@ -106,7 +108,7 @@ Click any of the sections below to expand them.
   }
   ```
 
-  If you want the `color` and/or `background-color` property to transition smoothly rather than changing instantaneously, you can specify that using the `transition` property:
+  If you want the `color` and/or `background-color` property to transition smoothly rather than changing instantaneously, you can specify this using the `transition` property:
   ```css
   #nav-links-container a {
     transition: background-color 100ms, color 100ms;
