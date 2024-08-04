@@ -45,7 +45,7 @@ But that's not all! To complete this task, you will also need to be able to crea
 
 A good example of an implicit grid in this exercise would be the grid of product cards:
 
-![Responsive grid of product cards](https://gcdnb.pbrd.co/images/zossXuFWLGrV.gif?o=1)
+![](https://gcdnb.pbrd.co/images/VPP1jD31VMbl.gif?o=1)
 
 Notice that the grid is able to adapt to any screen size. This is made possible by setting these rules:
 1. The maximum width of the entire grid container is 1050 pixels.
