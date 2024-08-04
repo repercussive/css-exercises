@@ -8,7 +8,7 @@ Click any of the sections below to expand them.
 
   Both the **page header** and the **product cards section** use the *exact same CSS grid solution* to create a responsive layout. The layout is calculated *implicitly*.
 
-  ![header grid](https://gcdnb.pbrd.co/images/kVTQlMknotqS.gif?o=1)
+  ![header grid](https://gcdnb.pbrd.co/images/VxrA02Y4O0aq.gif?o=1)
 
   Please have a full read through the "*Before you begin*" section of this exercise's `README` file to find more information about CSS grid, as well as links to resources which will help you create this type of layout. 
 
