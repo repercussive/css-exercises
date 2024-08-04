@@ -31,6 +31,8 @@ To complete this task, you will need to understand the fundamentals of **CSS Gri
 
 A good place to start learning about CSS grid is with [CSS Grid Garden](https://cssgridgarden.com/).
 
+If you want to improve your understanding, I recommend watching [this video](https://www.youtube.com/watch?v=rg7Fvvl3taU) as well.
+
 This will prepare you to start creating **explicit** grid layouts, i.e. ones where you manually define the dimensions and areas of the grid. A good example of an explicit grid in this exercise could be the product cards:
 
 ![Product card](https://gcdnb.pbrd.co/images/B9dTbLzAQVkm.png?o=1)
