@@ -31,7 +31,7 @@ You'll have to configure the CSS so that the colour swatches fit within the widt
 
 For layout, I highly recommend taking a deeper look into **flexbox** if you haven't done so already.
 - [Flexbox froggy, an interactive game for learning flexbox](https://flexboxfroggy.com/)
-- [A complete guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+- [An interactive guide to flexbox](https://www.joshwcomeau.com/css/interactive-guide-to-flexbox/)
 
 For shifting the layout on narrow screens, this can be achieved with the help of a **media query**.
 - [Guide to media queries](https://css-tricks.com/a-complete-guide-to-css-media-queries/)
